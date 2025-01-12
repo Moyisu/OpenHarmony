@@ -1,6 +1,16 @@
 
 # OH端到端安全评估框架代码
 
+## 文档结构
+```
+├── data_collection.js       # 数据采集模块
+├── feature_extraction.js    # 特征提取模块
+├── threat_analysis.js       # 威胁分析模块
+├── alert_module.js          # 预警模块
+├── test_logs.js             # 测试数据
+└── README.md                # 项目说明文件
+```
+
 **1.** **简介**
 
 本文档详细给出了一个完整的 OpenHarmony端到端安全评估框架代码。该框架由 **数据采集、特征提取、威胁分析、预警**等模块组成，旨在为OpenHarmony系统提供安全评估与威胁检测的能力。框架通过实时收集系统和应用日志，提取特征，分析潜在威胁，并在威胁发生时进行自动预警。
